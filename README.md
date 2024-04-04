@@ -18,4 +18,4 @@ This is a solution to the [Recipe page challenge on Frontend Mentor]([https://ww
     Challenge by: Frontend Mentor [https://www.frontendmentor.io/c]
     Coded by: Nikol [https://www.frontendmentor.io/profile/nikol-zimova]
 
-For more details, visit the QR code component challenge page.
+For more details, visit the Recipe page challenge page.
