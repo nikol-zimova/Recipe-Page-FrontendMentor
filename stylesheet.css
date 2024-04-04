@@ -1,0 +1,132 @@
+body{
+    background-color:  hsl(30, 54%, 90%);
+    max-width: 1440px;
+    margin: auto;
+}
+
+#container-card{
+    position: relative;
+    width: 48%;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 40px;
+} 
+
+#preparation-container{
+    margin: 30px 25px 30px;
+}
+
+#preparation-title{
+    color:hsl(332, 51%, 32%);
+    font-size: 20px;
+}
+
+#omelette-pic{
+    max-width: 100%;
+    border: none;
+    border-radius: 10px;
+}
+
+main{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
+
+#recipe-name{
+    font-family: "Young Serif", serif;
+    font-weight: 600;
+    color: hsl(24, 5%, 18%);
+}
+
+#intro{
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    line-height: 2;
+}
+
+#ingredients-title, #instructions-title, #nutrition-title{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 25px;
+    color:  hsl(14, 45%, 36%);
+    padding-top: 20px;
+    margin: auto;
+}
+
+#preparation-bullets, #ingredient-list, #instructions, #table-intro{
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%);
+    line-height: 2;
+    display: block;
+}
+
+#preparation-bullets li::marker{
+    color: hsl(332, 51%, 32%);
+}
+
+#ingredient-list li::marker, #instructions li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+li{
+    padding-left: 25px;
+
+}
+
+ol, ul{
+    padding-left: 20px;
+}
+
+.container {
+    width: 100%;
+}
+
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition-table th {
+    text-align: start;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    color: hsl(30, 10%, 34%);
+    font-weight: 400;
+}
+
+.nutrition-table td {
+    text-align: start;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.divider{
+    border: none;
+    height: 1px;
+    background-color: hsl(30, 18%, 87%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
