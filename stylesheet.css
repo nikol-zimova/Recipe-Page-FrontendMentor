@@ -114,6 +114,10 @@ ol, ul{
     font-weight: bold;
 }
 
+#last-row{
+    border-bottom: 0;
+}
+
 .divider{
     border: none;
     height: 1px;
