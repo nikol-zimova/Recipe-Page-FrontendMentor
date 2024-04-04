@@ -1,6 +1,6 @@
 # Recipe page Challenge - Solution
 
-!QR Code Component
+!Recipe page
 
 ## Overview
 
